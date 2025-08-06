@@ -1,0 +1,256 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.apptotemclean"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:3:5-67
+11-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:4:5-65
+12-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:4:22-62
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:5:5-71
+13-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:5:22-68
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:6:5-80
+14-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:6:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:7:5-81
+15-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:7:22-78
+16    <uses-permission android:name="android.permission.VIBRATE" /> <!-- Permissões de Localização GPS -->
+16-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:8:5-66
+16-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:8:22-63
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:11:5-79
+17-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:12:5-81
+18-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:12:22-78
+19
+20    <uses-feature
+20-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:14:5-84
+21        android:name="android.hardware.camera"
+21-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:14:19-57
+22        android:required="true" />
+22-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:14:58-81
+23    <uses-feature android:name="android.hardware.camera.autofocus" />
+23-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:15:5-70
+23-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:15:19-67
+24    <!--
+25    This manifest file is used only by Gradle to configure debug-only capabilities
+26    for React Native Apps.
+27    -->
+28    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+28-->[com.facebook.react:react-android:0.73.11] C:\Users\FG Services\.gradle\caches\8.8\transforms\2322fec8c68ad5c38657afba20f29479\transformed\jetified-react-android-0.73.11-debug\AndroidManifest.xml:16:5-78
+28-->[com.facebook.react:react-android:0.73.11] C:\Users\FG Services\.gradle\caches\8.8\transforms\2322fec8c68ad5c38657afba20f29479\transformed\jetified-react-android-0.73.11-debug\AndroidManifest.xml:16:22-75
+29    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+29-->[com.facebook.flipper:flipper:0.201.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\bc858a379ec11d01c853d06982a3afec\transformed\jetified-flipper-0.201.0\AndroidManifest.xml:14:5-76
+29-->[com.facebook.flipper:flipper:0.201.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\bc858a379ec11d01c853d06982a3afec\transformed\jetified-flipper-0.201.0\AndroidManifest.xml:14:22-73
+30    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+30-->[com.google.android.gms:play-services-iid:17.0.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\598b1658ad289d8aff2b3bffd79767b3\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:23:5-82
+30-->[com.google.android.gms:play-services-iid:17.0.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\598b1658ad289d8aff2b3bffd79767b3\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:23:22-79
+31
+32    <permission
+32-->[androidx.core:core:1.9.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\f3ef04b6d83623ff8585447dc55fc8d1\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+33        android:name="com.apptotemclean.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+33-->[androidx.core:core:1.9.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\f3ef04b6d83623ff8585447dc55fc8d1\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+34        android:protectionLevel="signature" />
+34-->[androidx.core:core:1.9.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\f3ef04b6d83623ff8585447dc55fc8d1\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+35
+36    <uses-permission android:name="com.apptotemclean.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+36-->[androidx.core:core:1.9.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\f3ef04b6d83623ff8585447dc55fc8d1\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+36-->[androidx.core:core:1.9.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\f3ef04b6d83623ff8585447dc55fc8d1\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+37    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+38    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+38-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\FG Services\.gradle\caches\8.8\transforms\559c555b541cc2e4e36f3f44beddd5a7\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+38-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\FG Services\.gradle\caches\8.8\transforms\559c555b541cc2e4e36f3f44beddd5a7\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:22-76
+39    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+39-->[com.android.installreferrer:installreferrer:1.1.2] C:\Users\FG Services\.gradle\caches\8.8\transforms\8ce72752073a59f0e5b82e8e617c44d1\transformed\jetified-installreferrer-1.1.2\AndroidManifest.xml:9:5-110
+39-->[com.android.installreferrer:installreferrer:1.1.2] C:\Users\FG Services\.gradle\caches\8.8\transforms\8ce72752073a59f0e5b82e8e617c44d1\transformed\jetified-installreferrer-1.1.2\AndroidManifest.xml:9:22-107
+40
+41    <application
+41-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:17:5-36:19
+42        android:name="com.apptotemclean.MainApplication"
+42-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:18:7-38
+43        android:allowBackup="false"
+43-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:22:7-34
+44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+44-->[androidx.core:core:1.9.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\f3ef04b6d83623ff8585447dc55fc8d1\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+45        android:debuggable="true"
+46        android:extractNativeLibs="false"
+47        android:icon="@mipmap/ic_launcher"
+47-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:20:7-41
+48        android:label="@string/app_name"
+48-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:19:7-39
+49        android:roundIcon="@mipmap/ic_launcher_round"
+49-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:21:7-52
+50        android:theme="@style/AppTheme"
+50-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:23:7-38
+51        android:usesCleartextTraffic="true" >
+51-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\debug\AndroidManifest.xml:6:9-44
+52        <activity
+52-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:24:7-35:18
+53            android:name="com.apptotemclean.MainActivity"
+53-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:25:9-37
+54            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+54-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:27:9-118
+55            android:exported="true"
+55-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:30:9-32
+56            android:label="@string/app_name"
+56-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:26:9-41
+57            android:launchMode="singleTask"
+57-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:28:9-40
+58            android:windowSoftInputMode="adjustResize" >
+58-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:29:9-51
+59            <intent-filter>
+59-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:31:9-34:25
+60                <action android:name="android.intent.action.MAIN" />
+60-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:32:13-65
+60-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:32:21-62
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:33:13-73
+62-->C:\Users\FG Services\Documents\ponto_digital\AppTotemClean\android\app\src\main\AndroidManifest.xml:33:23-70
+63            </intent-filter>
+64        </activity>
+65        <activity
+65-->[com.facebook.react:react-android:0.73.11] C:\Users\FG Services\.gradle\caches\8.8\transforms\2322fec8c68ad5c38657afba20f29479\transformed\jetified-react-android-0.73.11-debug\AndroidManifest.xml:19:9-21:40
+66            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+66-->[com.facebook.react:react-android:0.73.11] C:\Users\FG Services\.gradle\caches\8.8\transforms\2322fec8c68ad5c38657afba20f29479\transformed\jetified-react-android-0.73.11-debug\AndroidManifest.xml:20:13-77
+67            android:exported="false" />
+67-->[com.facebook.react:react-android:0.73.11] C:\Users\FG Services\.gradle\caches\8.8\transforms\2322fec8c68ad5c38657afba20f29479\transformed\jetified-react-android-0.73.11-debug\AndroidManifest.xml:21:13-37
+68
+69        <service
+69-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\54253b4348f66b3bcd766487cdd91662\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:9:9-15:19
+70            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+70-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\54253b4348f66b3bcd766487cdd91662\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:10:13-91
+71            android:directBootAware="true"
+71-->[com.google.mlkit:common:17.2.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\3920165e74998e5e0544840ba52ded70\transformed\jetified-common-17.2.0\AndroidManifest.xml:17:13-43
+72            android:exported="false" >
+72-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\54253b4348f66b3bcd766487cdd91662\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:11:13-37
+73            <meta-data
+73-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\54253b4348f66b3bcd766487cdd91662\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:12:13-14:85
+74                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+74-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\54253b4348f66b3bcd766487cdd91662\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:13:17-120
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\54253b4348f66b3bcd766487cdd91662\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:14:17-82
+76            <meta-data
+76-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\9a40f1224f1aacfd5d383b2e64fbd348\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:12:13-14:85
+77                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+77-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\9a40f1224f1aacfd5d383b2e64fbd348\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:13:17-114
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\9a40f1224f1aacfd5d383b2e64fbd348\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:14:17-82
+79            <meta-data
+79-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\43b2afa7f781cde67c82c595e094360d\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:12:13-14:85
+80                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+80-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\43b2afa7f781cde67c82c595e094360d\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:13:17-114
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\43b2afa7f781cde67c82c595e094360d\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:14:17-82
+82            <meta-data
+82-->[com.google.mlkit:vision-common:16.5.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\0e565a9a6511d8b948f3297fd168e25b\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:12:13-14:85
+83                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+83-->[com.google.mlkit:vision-common:16.5.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\0e565a9a6511d8b948f3297fd168e25b\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:13:17-124
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.mlkit:vision-common:16.5.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\0e565a9a6511d8b948f3297fd168e25b\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:14:17-82
+85            <meta-data
+85-->[com.google.mlkit:common:17.2.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\3920165e74998e5e0544840ba52ded70\transformed\jetified-common-17.2.0\AndroidManifest.xml:20:13-22:85
+86                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+86-->[com.google.mlkit:common:17.2.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\3920165e74998e5e0544840ba52ded70\transformed\jetified-common-17.2.0\AndroidManifest.xml:21:17-120
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.mlkit:common:17.2.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\3920165e74998e5e0544840ba52ded70\transformed\jetified-common-17.2.0\AndroidManifest.xml:22:17-82
+88        </service>
+89
+90        <provider
+90-->[com.google.mlkit:common:17.2.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\3920165e74998e5e0544840ba52ded70\transformed\jetified-common-17.2.0\AndroidManifest.xml:9:9-13:38
+91            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+91-->[com.google.mlkit:common:17.2.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\3920165e74998e5e0544840ba52ded70\transformed\jetified-common-17.2.0\AndroidManifest.xml:10:13-78
+92            android:authorities="com.apptotemclean.mlkitinitprovider"
+92-->[com.google.mlkit:common:17.2.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\3920165e74998e5e0544840ba52ded70\transformed\jetified-common-17.2.0\AndroidManifest.xml:11:13-69
+93            android:exported="false"
+93-->[com.google.mlkit:common:17.2.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\3920165e74998e5e0544840ba52ded70\transformed\jetified-common-17.2.0\AndroidManifest.xml:12:13-37
+94            android:initOrder="99" />
+94-->[com.google.mlkit:common:17.2.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\3920165e74998e5e0544840ba52ded70\transformed\jetified-common-17.2.0\AndroidManifest.xml:13:13-35
+95
+96        <activity
+96-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\2720a1c56edc4c0c1cd9235041b4132a\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+97            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+97-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\2720a1c56edc4c0c1cd9235041b4132a\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+98            android:exported="false"
+98-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\2720a1c56edc4c0c1cd9235041b4132a\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+99            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+99-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\2720a1c56edc4c0c1cd9235041b4132a\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+100
+101        <meta-data
+101-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\a988b900db8a2183786218f2a16675a9\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+102            android:name="com.google.android.gms.version"
+102-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\a988b900db8a2183786218f2a16675a9\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+103            android:value="@integer/google_play_services_version" />
+103-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\a988b900db8a2183786218f2a16675a9\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+104
+105        <provider
+105-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\14706748cfd1e8db600e67c4f13814d4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+106            android:name="androidx.startup.InitializationProvider"
+106-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\14706748cfd1e8db600e67c4f13814d4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+107            android:authorities="com.apptotemclean.androidx-startup"
+107-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\14706748cfd1e8db600e67c4f13814d4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+108            android:exported="false" >
+108-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\14706748cfd1e8db600e67c4f13814d4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+109            <meta-data
+109-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\14706748cfd1e8db600e67c4f13814d4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+110                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+110-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\14706748cfd1e8db600e67c4f13814d4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+111                android:value="androidx.startup" />
+111-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FG Services\.gradle\caches\8.8\transforms\14706748cfd1e8db600e67c4f13814d4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+112            <meta-data
+112-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FG Services\.gradle\caches\8.8\transforms\64720ecae75d163de17435cdd9b09d33\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+113                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+113-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FG Services\.gradle\caches\8.8\transforms\64720ecae75d163de17435cdd9b09d33\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+114                android:value="androidx.startup" />
+114-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FG Services\.gradle\caches\8.8\transforms\64720ecae75d163de17435cdd9b09d33\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+115        </provider>
+116
+117        <service
+117-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\FG Services\.gradle\caches\8.8\transforms\559c555b541cc2e4e36f3f44beddd5a7\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+118            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+118-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\FG Services\.gradle\caches\8.8\transforms\559c555b541cc2e4e36f3f44beddd5a7\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+119            android:exported="false" >
+119-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\FG Services\.gradle\caches\8.8\transforms\559c555b541cc2e4e36f3f44beddd5a7\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+120            <meta-data
+120-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\FG Services\.gradle\caches\8.8\transforms\559c555b541cc2e4e36f3f44beddd5a7\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+121                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+121-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\FG Services\.gradle\caches\8.8\transforms\559c555b541cc2e4e36f3f44beddd5a7\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+122                android:value="cct" />
+122-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\FG Services\.gradle\caches\8.8\transforms\559c555b541cc2e4e36f3f44beddd5a7\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+123        </service>
+124        <service
+124-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\FG Services\.gradle\caches\8.8\transforms\eb65f89fcbd2c22f89d21f621724de92\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+125            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+125-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\FG Services\.gradle\caches\8.8\transforms\eb65f89fcbd2c22f89d21f621724de92\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+126            android:exported="false"
+126-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\FG Services\.gradle\caches\8.8\transforms\eb65f89fcbd2c22f89d21f621724de92\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+127            android:permission="android.permission.BIND_JOB_SERVICE" >
+127-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\FG Services\.gradle\caches\8.8\transforms\eb65f89fcbd2c22f89d21f621724de92\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+128        </service>
+129
+130        <receiver
+130-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\FG Services\.gradle\caches\8.8\transforms\eb65f89fcbd2c22f89d21f621724de92\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+131            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+131-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\FG Services\.gradle\caches\8.8\transforms\eb65f89fcbd2c22f89d21f621724de92\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+132            android:exported="false" />
+132-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\FG Services\.gradle\caches\8.8\transforms\eb65f89fcbd2c22f89d21f621724de92\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+133
+134        <meta-data
+134-->[com.facebook.soloader:soloader:0.10.5] C:\Users\FG Services\.gradle\caches\8.8\transforms\bc42c022bd66159eec4f4e3b7041e5ed\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:12:9-14:37
+135            android:name="com.facebook.soloader.enabled"
+135-->[com.facebook.soloader:soloader:0.10.5] C:\Users\FG Services\.gradle\caches\8.8\transforms\bc42c022bd66159eec4f4e3b7041e5ed\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:13:13-57
+136            android:value="false" />
+136-->[com.facebook.soloader:soloader:0.10.5] C:\Users\FG Services\.gradle\caches\8.8\transforms\bc42c022bd66159eec4f4e3b7041e5ed\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:14:13-34
+137    </application>
+138
+139</manifest>

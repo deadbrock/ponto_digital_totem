@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.apptotemclean.app-mergeDebugResources-37:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\FG Services\\.gradle\\caches\\8.8\\transforms\\a21a78670ac687d17696e202ad9654be\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

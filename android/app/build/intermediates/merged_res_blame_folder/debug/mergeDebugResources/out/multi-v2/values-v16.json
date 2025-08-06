@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.apptotemclean.app-mergeDebugResources-37:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\FG Services\\.gradle\\caches\\8.8\\transforms\\f3ef04b6d83623ff8585447dc55fc8d1\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\FG Services\\.gradle\\caches\\8.8\\transforms\\a21a78670ac687d17696e202ad9654be\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}
